@@ -4,77 +4,78 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/uni3" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/uni3" />
 
     <ImageView
         android:id="@+id/img_center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_centerInParent="true"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/uni2" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/uni3" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/uni3" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_above="@id/img_center"
         android:layout_toStartOf="@id/img_center"
         android:layout_toLeftOf="@id/img_center"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/uni4" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_above="@id/img_center"
         android:layout_toEndOf="@id/img_center"
         android:layout_toRightOf="@id/img_center"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/uni4" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_below="@id/img_center"
         android:layout_toStartOf="@id/img_center"
         android:layout_toLeftOf="@id/img_center"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/uni4" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:layout_below="@id/img_center"
         android:layout_toEndOf="@id/img_center"
         android:layout_toRightOf="@id/img_center"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/uni4" />
 
 </RelativeLayout>
